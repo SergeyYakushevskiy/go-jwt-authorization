@@ -1,0 +1,20 @@
+{
+    "logging": {
+        "dir": "./logs",
+        "file_level": "DEBUG",
+        "console_level": "INFO"
+    },
+    "db": {
+        "host": "localhost",
+        "port": 6534,
+        "db_name": "jwt_authoriztion"
+    },
+    "http": {
+        "host": "localhost",
+        "port": 8080
+    },
+    "jwt": {
+        "refresh_exp": 604800,
+        "access_exp": 54000
+    }
+}
